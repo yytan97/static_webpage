@@ -1,0 +1,30 @@
+:root {
+  --dark: rgba(5, 6, 6, 1);
+  --oren: rgba(235, 92, 43, 1);
+  --green: rgba(148, 193, 54, 1);
+  --blue: rgba(78, 129, 194, 1);
+  --purple: rgba(160, 44, 119, 1);
+  --oren-light: rgba(241, 185, 155, 1);
+  --green-light: rgba(190, 211, 146, 1);
+  --blue-light: rgba(144, 183, 226, 1);
+  --purple-light: rgba(195, 135, 174, 1);
+  --grey: rgba(101, 108, 108, 1);
+  --white: rgba(255, 255, 255, 1);
+  --line: rgba(228, 231, 236, 1);
+  --base: rgba(249, 249, 249, 1);
+  --card-bg: rgba(245, 247, 249, 1);
+  --h3-semi-bold-font-family: "Inter-SemiBold", Helvetica;
+  --h3-semi-bold-font-weight: 600;
+  --h3-semi-bold-font-size: 48px;
+  --h3-semi-bold-letter-spacing: 0px;
+  --h3-semi-bold-line-height: 60px;
+  --h3-semi-bold-font-style: normal;
+  --paragraph-s-semi-bold-font-family: "Inter-SemiBold", Helvetica;
+  --paragraph-s-semi-bold-font-weight: 600;
+  --paragraph-s-semi-bold-font-size: 14px;
+  --paragraph-s-semi-bold-letter-spacing: 0px;
+  --paragraph-s-semi-bold-line-height: 20px;
+  --paragraph-s-semi-bold-font-style: normal;
+  --drop-shadow: 0px 3px 6px 0px rgba(13, 10, 44, 0.16);
+  --layer-blur: ;
+}
