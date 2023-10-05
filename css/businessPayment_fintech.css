@@ -252,7 +252,9 @@
 }
 
 .business-models .screenshot-wrapper {
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     padding: 49px 0px;
     flex: 1;
@@ -949,11 +951,12 @@
 .business-models .text-6 {
     display: flex;
     flex-direction: column;
-    width: 476px;
+    width: 50%;
     align-items: flex-start;
     gap: 16px;
     position: relative;
     align-self: stretch;
+    justify-content: center;
 }
 
 .business-models .flexcontainer {
@@ -995,6 +998,9 @@
     /* background-image: url(./img/fintech-phone.png); */
     background-size: cover;
     background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .business-models .hero {
@@ -1379,12 +1385,15 @@
     width: 500px;
     height: 284.68px;
     border-radius: 20px;
-    box-shadow: var(--drop-shadow);
+    box-shadow: 0px 3px 6px 0px rgba(13, 10, 44, 0.16);
+    /* mix-blend-mode: multiply; */
 }
 
 .video-CAAS {
-    width: 452px;
-    height: 300px;
+    /* width: 452px; */
+    width: 550px;
+    height: auto;
+    mix-blend-mode: multiply;
 }
 
 .overlap-content-1 {
@@ -1692,6 +1701,7 @@
     
     .video {
         max-width: 100%; /* Ensure the video doesn't exceed its container */
+        mix-blend-mode: multiply;
         /* -moz-transform:rotate(20deg);
         -webkit-transform:rotate(20deg);
         -o-transform:rotate(20deg);
