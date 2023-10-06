@@ -1,7 +1,8 @@
 .business-models {
     position: relative;
     /* width: 100%; */
-    width: 1440px;
+    width: 100vw;
+    min-width: 1440px;
     height: 4649px;
     background-color: #ffffff;
 }

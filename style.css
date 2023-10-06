@@ -2,7 +2,8 @@
 
 .landing-page {
   position: relative;
-  width: 1440px;
+  width: 100vw;
+  min-width: 1440px;
   /* width: 100%; */
   height: 3300px;
   background-color: #ffffff;
@@ -954,7 +955,8 @@
 
 .technology {
   position: relative;
-  width: 1440px;
+  width: 100vw;
+  min-width: 1440px;
   /* width: 100%; */
   height: 4621px;
   background-color: #ffffff;
@@ -4020,7 +4022,8 @@
   justify-content: center;
   position: relative;
   /* margin-left: 10px; */
-  margin-top: 15px;
+  /* margin-top: 15px; */
+  padding: 5%;
 }
 
 .diagram .group {
