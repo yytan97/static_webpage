@@ -752,7 +752,7 @@
   border-radius: 16px;
   /* transform: rotate(180deg); */
   /* box-shadow: var(--drop-shadow); */
-  background-image: url(./img/gallery-features-base.png);
+  background-image: url(./img/gallery-features-base.svg);
   background-size: cover;
   background-position: 50% 50%;
   animation: fade-in-left 2s ease;
