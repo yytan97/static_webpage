@@ -1528,9 +1528,42 @@
   .pl-30 {
     padding-left: 30px;
   }
+
+  .ul-web {
+    list-style-type: disc;
+    padding-left: 1rem!important;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 22px;
+    padding-top: 16px;
+  }
   /* business model type end  */
 
 /* mobile view */
+
+@media (min-width: 320px) and (max-width: 413px){
+
+    .fintech-button {
+        width: 110px!important;
+        height: 70px!important;
+        background-color: #EB5C2B!important;
+        border-radius: 16px!important;
+        border: none!important;
+    }
+
+    .payment-button {
+        position: relative;
+        width: 110px!important;
+        height: 70px!important;
+        background-color: var(--blue-light)!important;
+        border-radius: 16px;
+        border: none!important;
+    }
+}
+
 
 @media (min-width: 320px) and (max-width: 767px) {
       .pt-50 {
@@ -1549,7 +1582,7 @@
       .section-3 {
         background-color: #F5F7F9;
         border-radius: 40px;
-        padding: 88px 15px;
+        padding: 88px 16px;
       }
 
       .section-4 {
@@ -1561,12 +1594,11 @@
       }
 
       .content-mobile-sec1 {
-        padding: 88px 32px;
+        padding: 88px 0px;
       }
 
       .fintech-section {
-        padding-top: 30px;
-        padding-bottom: 100px;
+        padding: 30px 24px 100px 24px;
       }
 
       .fintech-img {
@@ -1626,6 +1658,9 @@
         font-size: 22px;
         letter-spacing: 0;
         line-height: 30px;
+      }
+
+      .section3line {
         border-bottom: 3px solid #EB5C2B;
       }
 
@@ -1636,7 +1671,7 @@
         font-size: 14px;
         letter-spacing: 0.14px;
         line-height: 22px;
-        text-align: center;
+        /* text-align: center; */
         padding-top: 5px;
       }
 
@@ -1838,6 +1873,7 @@
         border-radius: 16px;
         overflow: hidden;
         background: linear-gradient(180deg, rgb(165.75, 29.9, 0) 0%, rgb(255, 46, 0) 100%);
+        margin-right: 32px;
     }
 
     .case-title {
@@ -2000,8 +2036,8 @@
   
   .payment-button {
     position: relative;
-    width: 130px;
-    height: 70px;
+    width: 150px;
+    height: 80px;
     background-color: var(--blue-light)!important;
     border-radius: 16px;
     border: none!important;
@@ -2009,15 +2045,15 @@
   
   .fintech-button {
     position: relative;
-    width: 130px;
-    height: 70px;
+    width: 150px;
+    height: 80px;
     background-color: #EB5C2B!important;
     border-radius: 16px;
     border: none!important;
   }
   
   .collapse-padding {
-    padding: 20px 45px;
+    padding: 20px;
   }
 
     /* Footer section  */

@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="element">
-                <div class="div">
+                <div class="div security-padding">
                     <div class="text">
                         <div class="heading">
                             Security
@@ -261,7 +261,8 @@
             </div>
             <div class="element-wrapper">
                 <div class="element-3">
-                    <div class="pic">
+                    <img src="img/embedded.svg" alt="">
+                    <!-- <div class="pic">
                         <div class="image">
                             <div class="overlap">
                                 <div class="group">
@@ -411,17 +412,30 @@
                         <div class="embedded-functions">
                             EMBEDDED FUNCTIONS
                         </div>
-                    </div>
+                    </div> -->
                     <div class="text-4">
                         <div class="heading-2 solution-green-line">
                             Solution
                         </div>
-                        <p class="description">
+                        <p class="description mb-0">
                             Transformation framework for payments and fintech:
                         </p>
-                        <p class="description-2">
-                            Incremental Payments<br />Technology Refresh<br />Transaction Independent<br />Multiple Vertical Sector Support
-                        </p>
+                        <div class="">
+                            <ul class="description-2 ul-web">
+                                <li>
+                                    Incremental Payments
+                                </li>
+                                <li>
+                                    Technology Refresh
+                                </li>
+                                <li>
+                                    Transaction Independent
+                                </li>
+                                <li>
+                                    Multiple Vertical Sector Support
+                                </li>
+                            </ul>
+                        </div>
                         <div class="description">
                             250+ microservices already developed
                         </div>
@@ -466,7 +480,7 @@
                     <!-- 2 -->
                     <div class="accordion-item pt-3">
                       <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed pl-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <div class="number-web">
                                 02
                             </div>
@@ -704,8 +718,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab">
-                    <div class="tab-2">
+                
+                    <div class="tab">
+                        <div class="tab-2 stickytest">
+                            <a href="technology_Microservices.html">
+                                <div class="TAB-button">
+                                    <div class="text-wrapper-6">
+                                        Microservices Architecture
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="technology_DynamicSolutions.html">
+                                <div class="TAB-button-2">
+                                    <div class="microservices">
+                                        Dynamic Solutions
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="technology_DynamicSolutions.html">
+                                <div class="TAB-button-2">
+                                    <div class="microservices">
+                                        Artificial Intelligence
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="stickytest">
                         <a href="technology_Microservices.html">
                             <div class="TAB-button">
                                 <div class="text-wrapper-6">
@@ -720,20 +759,20 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="technology_AI.html">
+                        <a href="technology_DynamicSolutions.html">
                             <div class="TAB-button-2">
                                 <div class="microservices">
-                                    Artificial Intelligence
+                                    Dynamic Solutions
                                 </div>
                             </div>
                         </a>
-                    </div>
-                </div>
+                    </div> -->
+                  
             </div>
             <div class="navigation-desktop">
                 <a href="index.html">
                     <div class="logo-cranium-light">
-                        <div class="element-a">
+                        <!-- <div class="element-a">
                             <div class="text-wrapper-7">
                                 VENTURES
                             </div>
@@ -741,7 +780,8 @@
                                 <img class="group-17" src="img/group-400-2-00000006697687567000335110000016116115738889263795-1.png" />
                                 <img class="subtraction" src="img/subtraction-65-2-00000003094691106872252180000002180338616269450.svg" />
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="img/logo_cranium.svg" alt="">
                     </div>
                 </a>
                 <div class="div-4">
@@ -855,7 +895,7 @@
                 <div class="mobile-tech">
                     <div style="position: relative;">
                         <div class="section-1">
-                            <img src="img/tech-mobile-img.png" width="100%" height="auto">
+                            <img src="img/tech-mobile-img-1.svg" width="100%" height="auto">
                         </div>
                         <div>
                             <div class="sm-content1">
@@ -1142,7 +1182,7 @@
                             { WEB 3.0 AND AI COMPATIBLE }
                         </div>
                         <div class="embedded-image">
-                            <img src="img/embedded-img.png" width="100%" height="auto">
+                            <img src="img/embedded.svg" width="100%" height="auto">
                         </div>
                     </div>
                 </div>
@@ -1198,7 +1238,7 @@
                             </li>
                         </ul>
                         <div>
-                            <img src="img/undraw_fitting_piece_re_pxay 1.png" width="100%" height="auto">
+                            <img src="img/undraw_fitting_piece_re_pxay 1.svg" width="100%" height="auto">
                         </div>
                     </div>
                 </div>
@@ -1341,17 +1381,24 @@
 
         <script>
 
-            window.onscroll = function() {stickyNavFunction()};
-            var navbar = document.getElementById("sticky_nav");
-            var sticky = navbar.offsetTop;
+            
 
-            function stickyNavFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
+            if(window.innerWidth < "768px") {
+                window.onscroll = function() {stickyNavFunction()};
+                var navbar = document.getElementById("sticky_nav");
+                var sticky = navbar.offsetTop;
+
+                function stickyNavFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
                 }
-            }
+            } 
+            
+
+            
             
             function hamburgerMenu() {
                 var x = document.getElementById("hamburger_submenu");

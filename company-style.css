@@ -125,7 +125,7 @@
 .company .frame {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 25px;
   position: relative;
   flex: 0 0 auto;
@@ -698,6 +698,27 @@
 
 /* mobile responsive */
 
+@media (min-width: 320px) and (max-width: 413px) {
+  
+  .fintech-button {
+      width: 110px!important;
+      height: 70px!important;
+      background-color: #EB5C2B!important;
+      border-radius: 16px!important;
+      border: none!important;
+  }
+
+  .payment-button {
+      position: relative;
+      width: 110px!important;
+      height: 70px!important;
+      background-color: var(--blue-light)!important;
+      border-radius: 16px;
+      border: none!important;
+  }
+
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 
   .pt-50 {
@@ -710,7 +731,7 @@
   }
 
   .content-mobile-sec1 {
-    padding: 88px 24px;
+    padding: 88px 0px;
   }
 
   .content-mobile-sec2{
@@ -723,6 +744,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 40px;
+  }
+
+  .about-section {
+    padding: 20px 24px;
   }
 
   .about-title {
@@ -1101,7 +1126,7 @@
 }
 
 .collapse-padding {
-  padding: 20px 45px;
+  padding: 20px;
 }
 
 .contactBtn-mobile {

@@ -883,6 +883,27 @@
 
 /* mobile view */
 
+@media (min-width: 320px) and (max-width: 413px) {
+  
+  .fintech-button {
+      width: 110px!important;
+      height: 70px!important;
+      background-color: #EB5C2B!important;
+      border-radius: 16px!important;
+      border: none!important;
+  }
+
+  .payment-button {
+      position: relative;
+      width: 110px!important;
+      height: 70px!important;
+      background-color: var(--blue-light)!important;
+      border-radius: 16px;
+      border: none!important;
+  }
+
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   
   .pt-50 {
@@ -907,18 +928,19 @@
   }
 
   .payment-section {
-    padding-top: 30px;
+    padding: 16px 24px;
   }
 
   .content-mobile-sec1 {
-    padding: 88px 32px;
+    /* padding: 88px 32px; */
+    padding: 88px 0px;
   }
 
   .payment-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
   }
 
   .payment-title {
@@ -1098,6 +1120,7 @@
   font-size: 22px;
   letter-spacing: 0;
   line-height: 30px;
+  padding-right: 16px;
 }
 
 .overflow {
@@ -1372,7 +1395,7 @@
 }
 
 .collapse-padding {
-  padding: 20px 45px;
+  padding: 20px;
 }
 
 .button-color {
