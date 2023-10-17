@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Venture Builder and Incubator. We are a team of start-up specialists who design, build and launch multiple models to create next generation Fintech">
+    <meta name="keywords" content="Venture Studio, Venture Builder, Fintech & Payments, Fintech, Transactional Platform, Paytech, Payment Processor, Payment Orchestration, Payment Technology, Intran, Unity, Unity Alliance, Unity Syariah, Authos, Powerhouse, Incremental, Sustaining, Descruptive, Radical, Sustainable Development">
+    <meta property="og:url"                content=" https://craniumventures.com/"/>
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Cranium Ventures"/>
+    <meta property="og:description"        content="Simplicity is a Journey Through Complexity" />
+    <meta property="og:image"              content="https://craniumventures.com/img/cranium_ventures_logo.png" >
+    <meta name="robots"                    content="max-image-preview:large" />
+    <meta name="robots"                    content="max-image-preview:large" />
+    <title>Cranium Ventures</title>
+    <link rel="shortcut icon" href="img/cranium_icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="indexV2.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="landing-mobile">
+      <div class="container-mobile">
+        <!-- webview navbar -->
+        <div class="d-none d-md-block">
+          <nav class="navbar fixed-top navbar-light navbar-bg pt-0 pb-0">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="indexV2.html">
+                <img src="img/logo_cranium.svg" alt="">
+              </a>
+              <div class="d-flex align-items-center">
+                <div class="navigation-button-noActive">
+                    <a class="right-menu text-reset" href="technology_MicroservicesV2.html" style="text-decoration: none;">
+                        <div class="text-wrapper-9">
+                            Technology
+                        </div>
+                    </a>
+                </div>
+                <div class="navigation-button-noActive">
+                    <div class="text-reset" style="text-decoration: none; cursor: pointer;">
+                        <div class="text-wrapper-9">
+                            Business Models
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-button-active">
+                    <a class="text-reset" href="#" style="text-decoration: none;">
+                        <div class="text-wrapper-9 active">
+                            Company
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- <div class="showType" id="showPop" style="display: none;">
+            <div class="typeContainer">
+              <a class="pr-30" href="businessModel_Payment.html">
+                <button type="button" class="btn btn-primary payment-button">
+                  <div class="button-font">
+                    Payment
+                  </div>
+                </button>
+              </a>
+              <a class="pl-30" href="businessModel_Fintech.html">
+                <button type="button" class="btn btn-primary fintech-button">
+                  <div class="button-font">
+                    Fintech
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div> -->
+        </div>
+        <!-- hamburger menu -->
+        <div class="d-block d-md-none">
+          <header class="header-mobile-menu ">
+            <a href="index.html" class="logo">
+              <img src="img/logo_cranium.svg">
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+              <span class="navicon"></span>
+            </label>
+            <ul class="menu">
+              <li style="padding: 100px 0px 0px 0px">
+                <a href="technology_Microservices.html">
+                  <div style="padding-left: 30px;">
+                    Technology
+                  </div>
+                </a>
+              </li>
+              <li style="padding: 20px 0px 20px 0px;">
+                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseMenu" onclick="businessMenu()">
+                  <div style="padding-left: 30px;">
+                    Business Model
+                    <i class="fa fa-angle-down" aria-hidden="true" style="float: right; font-size: 22px;"></i>
+                  </div>
+                </a>
+                <div class="collapse collapse-padding" id="collapseMenu">
+                  <div class="bmodels-container">
+                    <a href="businessModel_Payment.html">
+                      <button type="button" class="btn btn-primary payment-button">Payment</button>
+                    </a>
+                    <a href="businessModel_Fintech.html">
+                      <button type="button" class="btn btn-primary fintech-button">Fintech</button>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li style="padding: 20px 0px 20px 0pxpx;">
+                <a href="company.html">
+                  <div style="padding-left: 30px;">
+                    Company
+                  </div>
+                </a>
+              </li>
+              <!-- <li class="d-flex justify-content-center align-items-center" style="padding: 20px 0px 20px 0px;">
+                <a href="#">
+                  <button type="button" class="btn btn-primary button-color contactBtn-mobile">
+                    <div class="text-wrapper-10">
+                      Contact
+                    </div>
+                  </button>
+                </a>
+              </li> -->
+            </ul>
+          </header>
+        </div> 
+        <!-- hamburger menu end -->
+        <div class="mobile-landing">
+            <div class="section-1-company">
+                <div class="row">
+                    <div class="col-sm-6 col-12 container-center">
+                      <div class="company-image2">
+                          <img src="img/fintech-mobile-img.svg" width="100%" height="auto">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-12 container-center">
+                        <div class="about-section">
+                            <div class="about-title">
+                                Beyond <span class="lightblue-line">Payments</span>
+                            </div>
+                            <div class="about-content pb-0">
+                                <div class="pb-3">
+                                  75% of consumer payments worldwide are still processed on technologies from the 1970s and 1980s. 
+                                </div>
+                                <div class="pb-3">
+                                  The SYNAP microservices framework built on a “ground-up” principle, defines a new way to process payments replacing or extending legacy payment technologies.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="section-2">
+              <div class="white-container-2">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="challenges-title">
+                      <span class="lightblue-line">
+                        Payment Legacy Infrastructure Challenges:
+                      </span>
+                    </div>
+                    <!-- container  -->
+                    <div class="overflow-ai">
+                      <div class="powering-sm-container">
+                        <div class="col-container">
+                          <!-- 1 -->
+                          <div class="col pr-8">
+                            <div class="challenges-sm-container-1">
+                              <div class="pb-16">
+                                <img src="img/icon-no1.svg" alt="">
+                              </div>
+                              <div class="challenges-subtitle">
+                                Monolithic 
+                              </div>
+                              <div>
+                                <ul class="ul-mobile">
+                                  <li>
+                                    Inflexible
+                                  </li>
+                                  <li>
+                                    Silos Of Functionality
+                                  </li>
+                                  <li>
+                                    Replicated Dependency
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 2 -->
+                          <div class="col pr-8">
+                            <div class="challenges-sm-container-1">
+                              <div class="pb-16">
+                                <img src="img/icon-no2.svg" alt="">
+                              </div>
+                              <div class="challenges-subtitle">
+                                Archaic
+                              </div>
+                              <div>
+                                <ul class="ul-mobile">
+                                  <li>
+                                    Resource Availability 
+                                  </li>
+                                  <li>
+                                    Little or No Upgrade Path
+                                  </li>
+                                  <li>
+                                    Hardware Dependency
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 3 -->
+                          <div class="col">
+                            <div class="challenges-sm-container-1">
+                              <div class="pb-16">
+                                <img src="img/icon-no3.svg" alt="">
+                              </div>
+                              <div class="challenges-subtitle">
+                                Expensive 
+                              </div>
+                              <div>
+                                <ul class="ul-mobile">
+                                  <li>
+                                    Difficult to Maintain and Integrate
+                                  </li>
+                                  <li>
+                                    Supplier Dependency
+                                  </li>
+                                  <li>
+                                    Competitiveness
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section-2">
+              <div class="white-container-3">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="challenges-title">
+                      <span class="lightblue-line">
+                        Cranium's Technology Infrastructure Solution: 
+                      </span>
+                    </div>
+                    <div class="challenges-smContent">
+                      The Synap-powered switch replacement will result in a new and more efficient transformed state for banks and PSPs…
+                    </div>
+                    <!-- container  -->
+                    <div class="overflow-ai">
+                      <div class="powering-sm-container">
+                        <div class="col-container">
+                          <!-- 1 -->
+                          <div class="col pr-8">
+                            <div class="challenges-sm-container-2">
+                              <div class="pb-16">
+                                <img src="img/icon-no1.svg" alt="">
+                              </div>
+                              <div class="challenges-subtitle">
+                                Reusable
+                              </div>
+                              <div>
+                                <ul class="ul-mobile">
+                                  <li>
+                                    Micro-Services
+                                  </li>
+                                  <li>
+                                    Transaction Independent
+                                  </li>
+                                  <li>
+                                    Shared Functionality
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 2 -->
+                          <div class="col pr-8">
+                            <div class="challenges-sm-container-2">
+                              <div class="pb-16">
+                                <img src="img/icon-no2.svg" alt="">
+                              </div>
+                              <div class="challenges-subtitle">
+                                Future-Proof
+                              </div>
+                              <div>
+                                <ul class="ul-mobile">
+                                  <li>
+                                    Adaptive Orchestration Infrastructure  
+                                  </li>
+                                  <li>
+                                    Single User Interface
+                                  </li>
+                                  <li>
+                                    New Models, Revenues & Relationships
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 3 -->
+                          <div class="col">
+                            <div class="challenges-sm-container-2">
+                              <div class="pb-16">
+                                <img src="img/icon-no3.svg" alt="">
+                              </div>
+                              <div class="challenges-subtitle">
+                                Expensive 
+                              </div>
+                              <div>
+                                <ul class="ul-mobile">
+                                  <li>
+                                    Controlled Evolution Path
+                                  </li>
+                                  <li>
+                                    Makes Use of Legacy
+                                  </li>
+                                  <li>
+                                    Redefines Bank's Capabilities
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section-2">
+              <div class="grey-container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="challenges-title">
+                      <span class="lightblue-line">
+                        The Benefits
+                      </span> Of Implementing Cranium's Switch Replacement Are Defined In Terms Of Cost Reduction And New Revenue Opportunities….
+                    </div>
+                    <!-- container  -->
+                    <div class="overflow-ai">
+                      <div class="powering-sm-container">
+                        <div class="col-container">
+                          <!-- 1 -->
+                          <div class="col">
+                            <div class="benefits-container-1 mr-24">
+                              <div class="blue-backgrd">
+                                <div class="benefits-title">
+                                  Cost Out
+                                </div>
+                              </div>
+                              <div class="white-backgrd">
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Reduce / eliminate legacy systems maintenance costs:
+                                  </div>
+                                  <div class="content pb-2">
+                                    A typical banks spend c. 70% of its IT operating costs solely to maintain legacy systems
+                                  </div>
+                                  <div class="content">
+                                    SYNAP orchestration layers allows migration to next-gen systems to achieve c. 10% of legacy operating costs
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Reduce IT talent costs:
+                                  </div>
+                                  <div class="content">
+                                    Separate development teams focused on individual business cases writing in any code language or on low-code / no-code basis
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Rapid, safe and automated integration / configuration: 
+                                  </div>
+                                  <div class="content">
+                                    Modular deployment based on real-time automated API mapping layer
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Single user interface 
+                                  </div>
+                                  <div class="content">
+                                    Make multiple user and channel interfaces redundant , eliminate further operating
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Pay for what you use:
+                                  </div>
+                                  <div class="content">
+                                    Cranium's revenue modal is substantially transaction fee based with limited  / no implementation or licensing fees
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 2 -->
+                          <div class="col">
+                            <div class="benefits-container-1">
+                              <div class="blue-backgrd">
+                                <div class="benefits-title">
+                                  Revenue In
+                                </div>
+                              </div>
+                              <div class="white-backgrd">
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    New business models:
+                                  </div>
+                                  <div class="content">
+                                    Fintech as a  Service to deploy digital ecosystem and 3rd party VAS Payments as a Service to reinvent merchant acquiring  model  Settlement as a Service to deliver Web 3.0 interoperability
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Create new products safely and rapidly:
+                                  </div>
+                                  <div class="content">
+                                    Compartmentalized mircoservices framework supports continuous integration and continuous development(CI/CD)
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Real-time processing
+                                  </div>
+                                  <div class="content">
+                                    Real-time transaction processing of any message type or format(structured or unstructured) and performance at scale(10,000++ TPS) 
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Near-infinitely scalable:
+                                  </div>
+                                  <div class="content">
+                                    Cloud native functionality plus mircoservices framework supports automatic horizontal and / or vertical scaling
+                                  </div>
+                                </div>
+                                <div class="pb-32">
+                                  <div class="content-title pb-1">
+                                    Data analytics and personalisation
+                                  </div>
+                                  <div class="content">
+                                    Deploy state of the art AI/ML data analytics applications to personalise product offerings
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-section">
+              <div class="bottom-info-devider">
+                  <p class="text-wrapper">
+                      All Rights Reserved © Copyright 2023 | CRANIUM VENTURES
+                  </p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+        
+        function hamburgerMenu() {
+            var x = document.getElementById("hamburger_submenu");
+
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            } 
+        }
+
+        function businessMenu() {
+          var z = document.getElementById("collapseMenu");
+          if (z.style.display === "none") {
+                z.style.display = "block";
+            } else {
+                z.style.display = "none";
+            }
+        }
+
+        function showMore() {
+          var y = document.getElementById("showPop");
+          if (y.style.display === "none") {
+                y.style.display = "block";
+            } else {
+                y.style.display = "none";
+            }
+        }
+
+    </script>
+    
+  </body>
+</html>

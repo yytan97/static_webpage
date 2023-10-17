@@ -1113,6 +1113,116 @@
   border-bottom: 5px solid var(--blue-light);
 }
 
+.white-container-2 {
+  padding: 88px 180px 44px 180px;
+}
+
+.white-container-3 {
+  padding: 44px 180px 88px 180px;
+}
+
+.challenges-title {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--dark);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+  /* white-space: nowrap; */
+  padding-bottom: 24px
+}
+
+.challenges-sm-container-1 {
+  background-color: var(--card-bg);
+  padding: 16px 32px;
+  border-radius: 10px;
+}
+
+.challenges-sm-container-2 {
+  background-color: var(--card-bg);
+  padding: 16px 32px;
+  border-radius: 10px;
+  min-height: 240px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.challenges-subtitle {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding-bottom: 8px;
+}
+
+.challenges-smContent {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 26px;
+  padding-bottom: 24px;
+}
+
+.blue-backgrd {
+  background-color: var(--blue-light);
+  border-radius: 24px 24px 0px 0px;
+  padding: 8px 24px;
+}
+
+.benefits-container-1 {
+  background-color: #fff;
+  border-radius: 24px;
+  min-height: 660px;
+}
+
+.benefits-title {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 30px;
+}
+
+.white-backgrd {
+  padding: 16px 24px 24px 24px;
+}
+
+.white-backgrd .content-title {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--dark);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.white-backgrd .content {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #646c6c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 22px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+} 
+
+
+
+
 
 /* End businessV2.html */
 
@@ -1607,7 +1717,8 @@
   
   .ai-benefits,
   .powering-sm-container,
-  .exec_teamMember {
+  .exec_teamMember,
+  .challenges-container {
     overflow-x: auto;
     display: flex;
     width: fit-content;
@@ -2199,7 +2310,7 @@
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: var(--dark);
-    font-size: 11px;
+    font-size: 9px;
     text-align: center;
     letter-spacing: 0.11px;
     line-height: 20px;
@@ -2328,6 +2439,27 @@
     padding: 88px 32px;
   }
 
+  .benefits-container-1 {
+    min-width: 470px;
+    margin-right: 16px;
+  }
+
+  .white-container-2 {
+    padding: 88px 16px 44px 16px;
+  }
+
+  .white-container-3 {
+    padding: 44px 16px 88px 16px;
+  }
+
+  .challenges-sm-container-1 {
+    min-width: 300px;
+  }
+
+  .challenges-sm-container-2 {
+    min-width: 300px;
+  }
+
   
   }
 
@@ -2380,7 +2512,8 @@
 
   .ai-benefits,
   .powering-sm-container,
-  .exec_teamMember {
+  .exec_teamMember,
+  .challenges-container{
     overflow-x: auto;
     display: flex;
     width: fit-content;
@@ -2433,6 +2566,18 @@
 
   .section-1-company {
     padding: 88px 48px;
+  }
+
+  .white-container-2 {
+    padding: 88px 16px 44px 16px;
+  }
+
+  .white-container-3 {
+    padding: 44px 16px 88px 16px;
+  }
+
+  .benefits-container-1 {
+    min-height: 75vh;
   }
 
   /* profile */
@@ -2680,6 +2825,23 @@
     padding: 88px 72px;
   }
 
+  .white-container-2 {
+    padding: 88px 40px 44px 40px;
+  }
+
+  .white-container-3 {
+    padding: 44px 40px 88px 40px;
+  }
+
+  .benefits-container-1 {
+    min-height: 75vh;
+    /* width: 430px; */
+  }
+
+  .challenges-sm-container-1 {
+    min-height: 23vh;
+  }
+
 }
 
 @media (min-width: 1281px) and (max-width: 1366px) {
@@ -2720,6 +2882,18 @@
 
   .section-1-company {
     padding: 88px 112px;
+  }
+
+  .white-container-2 {
+    padding: 88px 80px 44px 80px;
+  }
+
+  .white-container-3 {
+    padding: 44px 80px 88px 80px;
+  }
+
+  .challenges-sm-container-2 {
+    min-height: 0px!important;
   }
 
 }
