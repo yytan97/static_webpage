@@ -99,7 +99,9 @@
 .dynamic-content-mobile,
 .ai-content-mobile,
 .whyAI-content-mobile,
-.about-content {
+.about-content,
+.fintech-sec2-content,
+.content-cluster-mobile {
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #646c6c;
@@ -163,7 +165,7 @@
 }
 
 .orange-line {
-    border-bottom: 5px solid #F1B99B;
+    border-bottom: 5px solid var(--oren-light);
 }
 
 .green-line {
@@ -746,7 +748,8 @@
   height: auto;
 }
 
-.ul-mobile.solutions {
+.ul-mobile.solutions,
+.ul-mobile.content-service {
   font-size: 18px;
   letter-spacing: 0;
   line-height: 26px;
@@ -1121,7 +1124,8 @@
   padding: 44px 180px 88px 180px;
 }
 
-.challenges-title {
+.challenges-title,
+.section-3-title {
   font-family: "Inter-SemiBold", Helvetica;
   font-weight: 600;
   color: var(--dark);
@@ -1163,7 +1167,8 @@
   padding-bottom: 8px;
 }
 
-.challenges-smContent {
+.challenges-smContent,
+.webTitle {
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: var(--grey);
@@ -1220,8 +1225,127 @@
   padding-bottom: 32px;
 } 
 
+.webContent {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--grey);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
 
+.webTitle-padding {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 
+.embedded-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 64px!important;
+}
+
+.thesis-img {
+  position: relative;
+  top: -28%;
+}
+
+.video-fintech {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.clusters-content-subtitle {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--dark);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.clusters-content-greyFont {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--grey);
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sm-icon-box {
+  padding: 24px;
+}
+
+.featured-section-1 {
+  padding: 16px 32px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(255, 153, 0) 0%, rgb(255, 183.6, 0) 100%);
+  margin-right: 16px;
+  min-height: 210px;
+}
+
+.featured-section-2 {
+  padding: 16px 32px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(255, 153, 0) 0%, rgb(255, 183.6, 0) 100%);
+  margin-left: 16px;
+  min-height: 210px;
+}
+
+.featured-section-3 {
+  padding: 16px 32px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(255, 92, 0) 0%, rgb(215.69, 38.91, 0) 100%);
+  margin-right: 16px;
+  min-height: 210px;
+}
+
+.featured-section-4 {
+  padding: 16px 32px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(165.75, 29.9, 0) 0%, rgb(255, 46, 0) 100%);
+  margin-left: 16px;
+  min-height: 210px;
+}
+
+.case-title {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.featured-content {
+  font-weight: 600;
+  color: var(--white);
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 22px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.phone-image {
+  width: 100%;
+  height: auto;
+}
 
 
 /* End businessV2.html */
@@ -1319,10 +1443,176 @@
     .sm-content-img3 {
       width: 6vw!important;
     }
+
+    .webTitle {
+      font-size: 14px;
+    }
+
+    .phone-image {
+      width: 80%;
+    }
+
+    .webContent {
+      font-size: 14px;
+    }
+
+    .thesis-img {
+      width: 100%!important;
+      top: -65%;
+    }
+
+    .white-container-2.thesis {
+      padding: 88px 0px 44px 0px;
+    }
+
+    .challenges-title, 
+    .section-3-title {
+      font-size: 22px;
+    }
+
+    .ul-mobile.solutions, 
+    .ul-mobile.content-service {
+      font-size: 14px;
+    }
+
+    .pr-16-mobile {
+      padding-right: 16px;
+    }
+
+    .powering-content-mobile, .addressing-content-mobile, .team-content-mobile, .solution-content-mobile, .dynamic-content-mobile, .ai-content-mobile, .whyAI-content-mobile, .about-content, .fintech-sec2-content, .content-cluster-mobile {
+      font-size: 14px;
+    }
+
+    .featured-section-1,
+    .featured-section-2,
+    .featured-section-3,
+    .featured-section-4 {
+      min-width: 280px!important;
+      min-height: 320px!important;
+    }
   
+  }
+
+  @media (min-width: 414px) and (max-width: 575px) {
+
+    .featured-section-1,
+    .featured-section-2,
+    .featured-section-3,
+    .featured-section-4 {
+      min-width: 280px!important;
+      min-height: 320px!important;
+    }
+
+    .thesis-img {
+      width: 100%!important;
+      top: -42%;
+    }
+
+    .webTitle {
+      font-size: 14px;
+    }
+
+    .phone-image {
+      width: 80%;
+    }
+
+    .webContent {
+      font-size: 14px;
+    }
+
+    .white-container-2.thesis {
+      padding: 88px 0px 44px 0px;
+    }
+
+    .challenges-title, 
+    .section-3-title {
+      font-size: 22px;
+    }
+
+    .ul-mobile.solutions, 
+    .ul-mobile.content-service {
+      font-size: 14px;
+    }
+
+    .powering-content-mobile, .addressing-content-mobile, .team-content-mobile, .solution-content-mobile, .dynamic-content-mobile, .ai-content-mobile, .whyAI-content-mobile, .about-content, .fintech-sec2-content, .content-cluster-mobile {
+      font-size: 14px;
+    }
+
   }
   
   @media (min-width: 320px) and (max-width: 991px) {
+
+    /* image modal pop out */
+
+    #unityImgPop {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    #unityImgPop:hover {opacity: 0.7;}
+
+    #unityModal .close {
+      color: #fff;
+      padding-left: 8px;
+      font-size: 25px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-height: 100vh;
+        max-width: 100%;
+        /* transform: rotate(90deg); */
+        top: 15%;
+    }
+
+    .phone-image {
+      width: 80%;
+    }
+
+    .powering-title-mobile,
+    .addressing-title-mobile,
+    .team-title-mobile,
+    .about-title {
+      font-size: 28px;
+      letter-spacing: 0;
+      line-height: 40px;
+      padding-bottom: 16px;
+  }
+
+    .powering-content-mobile,
+    .addressing-content-mobile,
+    .team-content-mobile,
+    .solution-content-mobile,
+    .dynamic-content-mobile,
+    .ai-content-mobile,
+    .whyAI-content-mobile,
+    .about-content,
+    .fintech-sec2-content,
+    .content-cluster-mobile {
+      font-size: 16px;
+      letter-spacing: 0.16px;
+      line-height: 24px;
+      padding-bottom: 24px;
+    }
 
     .web-container-center {
       display: flex;
@@ -2460,8 +2750,56 @@
     min-width: 300px;
   }
 
+  .cluster-icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .clusters-content-subtitle-mobile {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--dark);
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .clusters-content-greyFont-mobile {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--grey);
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .sm-icon-box-mobile {
+    padding: 16px;
+  }
+
+  .featured-section-1,
+  .featured-section-2,
+  .featured-section-3,
+  .featured-section-4 {
+    min-width: 350px;
+    min-height: 250px;
+  }
+
+  .thesis-img {
+    width: 78%;
+    top: -36%;
+  }
+
+  .embedded-container {
+    padding: 16px!important;
+  }
+
   
   }
+
 
 @media (min-width: 992px) and (max-width: 1024px) {
 
@@ -2578,6 +2916,10 @@
 
   .benefits-container-1 {
     min-height: 75vh;
+  }
+
+  .thesis-img {
+    width: 85%;
   }
 
   /* profile */
@@ -2841,6 +3183,13 @@
   .challenges-sm-container-1 {
     min-height: 23vh;
   }
+
+  .thesis-img {
+    position: relative;
+    top: -28%;
+    width: 84%;
+  }
+
 
 }
 
