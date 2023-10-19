@@ -30,7 +30,7 @@
         <div class="container-mobile">
             <!-- webview navbar -->
             <div class="d-none d-md-block">
-                <nav class="navbar fixed-top navbar-light navbar-bg pt-1 pb-1">
+                <nav class="navbar fixed-top navbar-light navbar-bg pt-0 pb-0">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="indexV2.html">
                             <img src="img/logo_cranium.svg" alt="">
@@ -43,7 +43,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="navigation-button-noActive">
+                            <div class="navigation-button-noActive" onclick="showMore()">
                                 <div class="text-reset" style="text-decoration: none; cursor: pointer;">
                                     <div class="text-wrapper-9">
                                         Business Models
@@ -60,6 +60,24 @@
                         </div>
                     </div>
                 </nav>
+                <div class="showType" id="showPop" style="display: none;">
+                    <div class="typeContainer">
+                      <a class="pr-30" href="businessModel_PaymentV2.html">
+                        <button type="button" class="btn btn-primary payment-button">
+                          <div class="button-font">
+                            Payment
+                          </div>
+                        </button>
+                      </a>
+                      <a class="pl-30" href="businessModel_FintechV2.html">
+                        <button type="button" class="btn btn-primary fintech-button">
+                          <div class="button-font">
+                            Fintech
+                          </div>
+                        </button>
+                      </a>
+                    </div>
+                </div>
             </div>
             <!-- hamburger menu -->
             <div class="d-block d-md-none">
@@ -122,7 +140,7 @@
                     <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center">
                         <div style="position: relative;">
                             <div class="section-1">
-                                <img src="img/group2825.svg" width="100%" height="auto">
+                                <img class="micro-animation" src="img/group2825.svg" width="100%" height="auto">
                             </div>
                             <div>
                                 <div class="sm-content1">

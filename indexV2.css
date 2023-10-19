@@ -34,6 +34,13 @@
 
 /* Start indexV2.html */
 
+
+.index-img {
+  width: 100%;
+  height: auto;
+  animation: fade-in-left 2s ease;
+}
+
 .mobile-landing {
     padding-top: 75px;
 }
@@ -50,6 +57,7 @@
     letter-spacing: 0;
     line-height: 60px;
     padding-bottom: 16px;
+    animation: fadeInRight 2s ease;
 }
 
 .section-2-content {
@@ -59,6 +67,7 @@
     font-size: 18px;
     letter-spacing: 0.18px;
     line-height: 26px;
+    animation: fadeInBottom 2s ease;
 }
 
 .blue-line {
@@ -363,10 +372,12 @@
   height: auto;
 }
 
-/* .showType {
-  position: relative;
+.showType {
+  position: fixed;
   top: 77px;
-} */
+  width: 100%;
+  z-index: 100;
+}
   
 .typeContainer {
   display: flex;
@@ -374,6 +385,7 @@
   align-items: center;
   background-color: #000;
   height: 60vh;
+  width: 100%;
 }
 
 .payment-button {
@@ -382,6 +394,7 @@
   background-color: var(--blue-light)!important;
   border-radius: 16px!important;
   border: none!important;
+  margin-right: 20px!important;
 }
 
 .fintech-button {
@@ -390,6 +403,17 @@
   background-color: #EB5C2B!important;
   border-radius: 16px!important;
   border: none!important;
+  margin-left: 20px!important;
+}
+
+.button-font {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 60px;
 }
 
 /* End indexV2.html */
@@ -419,6 +443,7 @@
   background-color: #ffffff;
   border-radius: 7.86px;
   box-shadow: 0px 1.75px 3.93px #0000000d;
+  animation: fade-in-left 2s ease;
 }
 
 .sm-content2 {
@@ -436,6 +461,7 @@
   background-color: #ffffff;
   border-radius: 7.86px;
   box-shadow: 0px 1.75px 3.93px #0000000d;
+  animation: fadeInBottom 2s ease;
 }
 
 .sm-content3 {
@@ -453,6 +479,7 @@
   background-color: #ffffff;
   border-radius: 7.86px;
   box-shadow: 0px 1.75px 3.93px #0000000d;
+  animation: fade-in-down 2s ease;
 }
 
 .text-content1 {
@@ -942,12 +969,23 @@
 .benefit-title {
   font-weight: 600;
 }
+
+.micro-animation {
+  animation: fade-in-left 2s ease;
+}
+
 /* End technology_MicroservicesV2, DS, AI */
 
 /* Start companyV2.html*/
 
+.company-image2{
+  width: 100%;
+  height: auto;
+} 
+
 .section-1-company {
-  padding: 88px 212px;
+  /* padding: 88px 112px; */
+  padding: 130px 112px;
   background-color: var(--card-bg);
   border-radius: 0px 0px 44px 44px;
 }
@@ -1251,12 +1289,6 @@
   top: -28%;
 }
 
-.video-fintech {
-  width: 100%;
-  height: auto;
-  mix-blend-mode: multiply;
-}
-
 .clusters-content-subtitle {
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
@@ -1347,8 +1379,84 @@
   height: auto;
 }
 
+.fintech-image2{
+  position: relative;
+  background: url(img/business_background3.jpeg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+	/* background-size:contain; */
+  /* width: 100%;
+  height: auto; */
+}
+
+.video-fintech {
+  width: 90%;
+  height: auto;
+  /* mix-blend-mode: multiply; */
+  position: relative;
+  top: 10px;
+  left: 3%;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px 0px rgba(13, 10, 44, 0.16);
+  margin-bottom: 40px;
+}
 
 /* End businessV2.html */
+
+/* Start animation */
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  to { opacity: 1 }
+}
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  } 
+}
+
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+/* End animation */
 
 /* mobile view */
 
@@ -1505,7 +1613,7 @@
 
     .thesis-img {
       width: 100%!important;
-      top: -42%;
+      top: -52%!important;
     }
 
     .webTitle {
@@ -3245,5 +3353,13 @@
     min-height: 0px!important;
   }
 
+  /* .video-fintech {
+    width: 78%;
+    height: 284.68px;
+    mix-blend-mode: multiply;
+    position: relative;
+    top: 10px;
+    left: 6%;
+  } */
 }
 
