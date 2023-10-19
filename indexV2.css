@@ -1523,7 +1523,7 @@
     }
 
     .sm-container-box {
-      min-width: 280px;
+      min-height: 180px!important;
     }
 
     .solution-container {
@@ -1610,6 +1610,12 @@
       min-width: 280px!important;
       min-height: 320px!important;
     }
+
+    .benefits-container-1 {
+      min-width: 300px!important;
+    }
+  
+  
   
   }
 
@@ -1656,6 +1662,14 @@
 
     .powering-content-mobile, .addressing-content-mobile, .team-content-mobile, .solution-content-mobile, .dynamic-content-mobile, .ai-content-mobile, .whyAI-content-mobile, .about-content, .fintech-sec2-content, .content-cluster-mobile {
       font-size: 14px;
+    }
+
+    .sm-container-box {
+      min-height: 180px!important;
+    }
+
+    .benefits-container-1 {
+      min-width: 350px!important;
     }
 
   }
@@ -2825,7 +2839,7 @@
   }
 
   .sm-container-box {
-    min-width: 300px;
+    min-height: 180px;
   }
   
   .section-2-micro {
@@ -2950,6 +2964,10 @@
     align-items: center;
   }
 
+  .sm-container-box {
+    min-height: 200px;
+  }
+
 }
 
 
@@ -3072,6 +3090,14 @@
 
   .thesis-img {
     width: 85%;
+  }
+
+  .challenges-sm-container-1 {
+    background-color: var(--card-bg);
+    padding: 16px 32px;
+    min-width: 275px;
+    min-height: 220px;
+    border-radius: 10px;
   }
 
   /* profile */
